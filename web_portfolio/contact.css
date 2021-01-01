@@ -1,0 +1,25 @@
+#contact {
+  background-color: #171717;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  z-index: 10;
+}
+.contact-info h3 {
+  padding: 3rem;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+  text-align: center;
+}
+
+ul.menu.ft li a {
+  color: white;
+  font-size: x-large;
+  padding: 0.5rem;
+}
+

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/**.container {
+  max-height: 1140px;
+  margin: 0 auto;
+}
+*/
+
+nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border-bottom: 2px solid white;
+  position: relative;
+  z-index: 10;
+}
+
+nav.about {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  border-bottom: 2px solid black;
+  position: relative;
+  z-index: 10;
+}
+
+ul.menu {
+  display: flex;
+}
+
+ul.menu li {
+  margin: 0 2rem;
+  list-style: none;
+}
+
+ul.menu li a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 2.5px solid transparent;
+  transition: 0.3s;
+}
+
+ul.menu.hm li a:hover {
+  border-bottom: 2.5px solid white;
+  padding: 0.5rem;
+}
+
+ul.menu.ab li a:hover {
+  border-bottom: 2.5px solid black;
+  padding: 0.5rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/*color: hsla(0,0%, 100%,.5);

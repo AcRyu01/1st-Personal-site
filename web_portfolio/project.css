@@ -1,0 +1,36 @@
+#project {
+  background-color: lightslategray;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  position: relative;
+  z-index: 10;
+}
+.project-info h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: indigo;
+  text-align: center;
+}
+
+.pj {
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: indigo;
+  text-align: center;
+  background-color: lightcyan;
+  border-radius: 20px;
+  padding: 7px;
+}
+
+.w-100 {
+  width: 100% !important;
+  height: auto;
+  background-color: wheat;
+}
